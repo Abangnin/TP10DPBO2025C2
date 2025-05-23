@@ -13,7 +13,7 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 
 - User mengisi Nama Kebun, Lokasi, dan Luas (ha).
 
-- Klik tombol "Save" → form dikirim ke index.php?entity=kebun&action=save (via method="post").
+- Klik tombol "Save" lalu form dikirim ke index.php?entity=kebun&action=save (via method="post").
 
 - File index.php memanggil KebunViewModel->addKebun(), yang mengakses model Kebun->create() dan menyimpan ke database (table kebun).
 
@@ -67,7 +67,7 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 
 - Nama Tanaman, Jenis, Pilih Kebun (dropdown).
 
-- Klik "Save" → data dikirim ke index.php?entity=tanaman&action=save.
+- Klik "Save" lalu data dikirim ke index.php?entity=tanaman&action=save.
 
 - Data disimpan melalui TanamanViewModel->addTanaman() → Tanaman->create().
 
@@ -90,7 +90,7 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 
 - Tanggal Panen, Jumlah (kg), Kualitas, Pilih Tanaman.
 
-- Klik "Save" → data ke index.php?entity=panen&action=save.
+- Klik "Save" lalu data ke index.php?entity=panen&action=save.
 
 - Diproses PanenViewModel->addPanen() → Panen->create().
 
