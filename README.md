@@ -57,7 +57,7 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 
 - Jika ya, KebunViewModel->deleteKebun($id) dipanggil → menghapus dari DB melalui Kebun->delete($id).
 
-Redirect ke list kebun.
+- Redirect ke list kebun.
 
 ### 5. Tambah Tanaman (Create)
 #### Alur:
